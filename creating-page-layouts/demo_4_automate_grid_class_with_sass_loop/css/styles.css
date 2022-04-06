@@ -1,0 +1,132 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+p {
+  text-align: center; }
+
+/* 12 COLUMN GRID SYSTEM */
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.column {
+  border: dashed red 1px; }
+
+.small-1 {
+  flex-basis: 8.3333333333%; }
+
+.small-2 {
+  flex-basis: 16.6666666667%; }
+
+.small-3 {
+  flex-basis: 25%; }
+
+.small-4 {
+  flex-basis: 33.3333333333%; }
+
+.small-5 {
+  flex-basis: 41.6666666667%; }
+
+.small-6 {
+  flex-basis: 50%; }
+
+.small-7 {
+  flex-basis: 58.3333333333%; }
+
+.small-8 {
+  flex-basis: 66.6666666667%; }
+
+.small-9 {
+  flex-basis: 75%; }
+
+.small-10 {
+  flex-basis: 83.3333333333%; }
+
+.small-11 {
+  flex-basis: 91.6666666667%; }
+
+.small-12 {
+  flex-basis: 100%; }
+
+@media only screen and (min-width: 768px) {
+  /* 12 COLUMN GRID SYSTEM */
+  .medium-1 {
+    flex-basis: 8.3333333333%; }
+
+  .medium-2 {
+    flex-basis: 16.6666666667%; }
+
+  .medium-3 {
+    flex-basis: 25%; }
+
+  .medium-4 {
+    flex-basis: 33.3333333333%; }
+
+  .medium-5 {
+    flex-basis: 41.6666666667%; }
+
+  .medium-6 {
+    flex-basis: 50%; }
+
+  .medium-7 {
+    flex-basis: 58.3333333333%; }
+
+  .medium-8 {
+    flex-basis: 66.6666666667%; }
+
+  .medium-9 {
+    flex-basis: 75%; }
+
+  .medium-10 {
+    flex-basis: 83.3333333333%; }
+
+  .medium-11 {
+    flex-basis: 91.6666666667%; }
+
+  .medium-12 {
+    flex-basis: 100%; } }
+/* end of media query */
+@media only screen and (min-width: 1140px) {
+  /* 12 COLUMN GRID SYSTEM */
+  .large-1 {
+    flex-basis: 8.3333333333%; }
+
+  .large-2 {
+    flex-basis: 16.6666666667%; }
+
+  .large-3 {
+    flex-basis: 25%; }
+
+  .large-4 {
+    flex-basis: 33.3333333333%; }
+
+  .large-5 {
+    flex-basis: 41.6666666667%; }
+
+  .large-6 {
+    flex-basis: 50%; }
+
+  .large-7 {
+    flex-basis: 58.3333333333%; }
+
+  .large-8 {
+    flex-basis: 66.6666666667%; }
+
+  .large-9 {
+    flex-basis: 75%; }
+
+  .large-10 {
+    flex-basis: 83.3333333333%; }
+
+  .large-11 {
+    flex-basis: 91.6666666667%; }
+
+  .large-12 {
+    flex-basis: 100%; } }
+/* end of media query */
