@@ -356,7 +356,8 @@ body {
 
 /* GRID */
 .row {
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .limited {
@@ -365,13 +366,12 @@ body {
 }
 
 .column {
-  float: left;
   padding: 0 2vw;
   margin: 0 0 0.75rem 0;
 }
 
 .small-12 {
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .small-6 {
@@ -510,12 +510,6 @@ footer h2 {
   margin: 1rem 0 0.3rem 0;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media only screen and (min-width: 768px) {
   header h1 {
     font-size: 2.85rem;
@@ -530,7 +524,7 @@ footer h2 {
   }
 
   .medium-6 {
-    width: 50%;
+    flex-basis: 50%;
   }
 
   .medium-4 {
@@ -553,7 +547,7 @@ footer h2 {
 /* end of media query */
 @media only screen and (min-width: 1140px) {
   .large-3 {
-    width: 25%;
+    flex-basis: 25%;
   }
 
   nav ul {

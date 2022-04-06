@@ -18,7 +18,8 @@ body {
 
 /* GRID */
 .row {
-  clear: both;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .limited {
@@ -27,13 +28,13 @@ body {
 }
 
 .column {
-  float: left;
+
   padding: 0 2vw;
   margin: 0 0 .75rem 0;
 }
 
 .small-12 {
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .small-6 {
@@ -182,8 +183,3 @@ footer h2 {
 }
 
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
