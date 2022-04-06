@@ -5,7 +5,10 @@
     header img {height: 100px;}
    
     .medium-6{width: 50%}
-    
+
+    nav button {display: none;}
+    nav ul {display: block;}
+    nav li {width: 25%; float: left;}
     
     
 } /* end of media query */
