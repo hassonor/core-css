@@ -18,7 +18,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo1.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo1.png)
 ___
 
 ### Flex Flow Direction
@@ -33,7 +33,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo2.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo2.png)
 ___
 
 ```css
@@ -44,7 +44,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo3.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/master/flex_demo3.png)
 ___
 
 ```css
@@ -55,7 +55,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo4.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo4.png)
 ___
 
 ### Flex Line Wrapping
@@ -70,7 +70,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo5.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo5.png)
 ___
 
 ```css
@@ -83,7 +83,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo6.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo6.png)
 ___
 
 ```css
@@ -96,7 +96,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo6.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo6.png)
 ___
 
 ```css
@@ -109,7 +109,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo7.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo7.png)
 
 ___
 
@@ -124,7 +124,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo8.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo8.png)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo9.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo9.png)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo10.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo10.png)
 
 ___
 
@@ -166,7 +166,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo11.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo11.png)
 
 ___
 
@@ -180,7 +180,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/flex_demo12.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo12.png)
 
 ___
 
@@ -210,7 +210,7 @@ __Source Order__
 </div>
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo1.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo1.png)
 
 ___
 
@@ -249,7 +249,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo2.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo2.png)
 
 ___
 
@@ -288,8 +288,8 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo3.png)
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo3_2.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo3.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo3_2.png)
 
 ___
 
@@ -329,8 +329,8 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo4.png)
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo4_2.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo4.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo4_2.png)
 
 ___
 
@@ -370,5 +370,5 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/screenshots/blob/master/display_order_demo5.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/display_order_demo5.png)
 ___
