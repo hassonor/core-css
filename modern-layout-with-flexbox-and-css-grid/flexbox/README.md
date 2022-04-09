@@ -588,7 +588,7 @@ ___
 Flex-basis sets the initial size of the items before the __extra__ space is _*distributed*_. <br>
 It shares many similarities with the width property, and in fact even uses the exact same length values, <br>
 meaning _*pixels*_, _*points*_, _*ems*_, _*rems*_ or _*percentages*_.
-![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/initial_state.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/initial_size.png)
 
 ___
 Example without flex-basis:
