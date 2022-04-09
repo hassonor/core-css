@@ -729,3 +729,598 @@ Shorthand `flex: flex-grow flex-shrink flex-basis` <br> Example_2:
 ![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_shorthand_demo_2.png)
 
 ___
+
+### Alignment
+
+___
+
+`justify-content` , `align-items` and `align-content` On the Container:
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/on_the_container.png)
+
+___
+
+`align-self` On the Item:
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/on_the_item.png)
+
+___
+
+#### Alignment: `justify-content`:
+
+`justify-content: flex-start` Example_1:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: flex-start;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_1.png)
+___
+`justify-content: flex-end` Example_2:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: flex-end;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_2.png)
+___
+
+`justify-content: flex-end` and `flex-direction: column` Example_3:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: flex-end;
+    flex-direction: column
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_3.png)
+
+___
+
+`justify-content: center` and `flex-direction: column` Example_4:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: center;
+    flex-direction: column
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_4.png)
+
+___
+
+`justify-content: center`  Example_5:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: center;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_5.png)
+
+___
+
+
+`justify-content: space-between`  Example_6:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: space-between;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_6.png)
+
+___
+
+`justify-content: space-around`  Example_7:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    justify-content: space-around;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_7.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/justify_content_demo_7_2.png)
+___
+
+#### Alignment: `align-items`:
+
+Without `align-items` Example_1:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_1.png)
+
+___
+With `align-items: flex-start` Example_2:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: flex-start;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_2.png)
+
+___
+
+With `align-items: flex-start` and `flex-direction: column` Example_3:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: flex-start;
+    flex-direction: column;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_3.png)
+
+___
+
+With `align-items: flex-end` Example_4:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: flex-end;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_4.png)
+
+___
+
+With `align-items: center` Example_5:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: center;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_5.png)
+
+___
+
+With `align-items: baseline` Example_6:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: baseline;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_6.png)
+
+___
+
+With `align-items: stretch` (DEFAULT) Example_7:
+
+```css
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    align-items: stretch;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_items_demo_7.png)
+
+___
+
+#### Alignment: `align-self`:
+
+___
+Without `align-self` Example_1:
+
+```css
+.flex-item-01 {
+    background-color: #721c24;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.flex-item-04 {
+    background-color: #9BC850;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_self_demo_1.png)
+
+___
+
+With `align-self: flex-start` Example_2:
+
+```css
+.flex-item-01 {
+    background-color: #721c24;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    align-self: flex-start;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.flex-item-04 {
+    background-color: #9BC850;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_self_demo_2.png)
+
+___
+
+With `align-self: flex-start` and `align-self:flex-end` Example_3:
+
+```css
+.flex-item-01 {
+    background-color: #721c24;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    align-self: flex-start;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-self: flex-end;
+}
+
+.flex-item-04 {
+    background-color: #9BC850;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_self_demo_3.png)
+
+___
+
+With `align-self: flex-start` , `align-self:flex-end` and `align-self:stretch` Example_4:
+
+```css
+.flex-item-01 {
+    background-color: #721c24;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    align-self: flex-start;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-self: flex-end;
+}
+
+.flex-item-04 {
+    background-color: #9BC850;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    align-self: stretch;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_self_demo_4.png)
+
+___
+
+#### Alignment: `align-content`:
+
+___
+
+Without `align-content` Example_1:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_1.png)
+
+___
+
+With `align-content: flex-start` Example_2:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_2.png)
+
+___
+
+With `align-content: flex-end` Example_3:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_3.png)
+
+___
+
+With `align-content: center` Example_4:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: center;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_4.png)
+
+___
+
+With `align-content: space-between` Example_5:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_5.png)
+
+___
+
+With `align-content: space-around` Example_6:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_6.png)
+
+___
+
+With `align-content: stretch` Example_7:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 36.72em;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/align_content_demo_7.png)
+
+___
+
+#### Alignment: `gap`:
+
+___
+Without `flex: 1` or `gap` Example_1:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+}
+
+.flex-item {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/gap_demo_1.png)
+
+___
+
+With `flex: 1` and without `gap` Example_2:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+}
+
+.flex-item {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/gap_demo_2.png)
+
+___
+
+With `flex: 1` and `gap: 2em` Example_3:
+
+```css
+.flex-container {
+    display: flex;
+    border: solid 4px #000;
+    height: 30em;
+    gap: 2em;
+}
+
+.flex-item {
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/gap_demo_3.png)
+
+___
+
+
+
