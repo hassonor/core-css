@@ -183,3 +183,192 @@ ___
 ![Twitter](https://github.com/hassonor/core-css/blob/master/flex_demo12.png)
 
 ___
+
+### Display Order
+
+* __For Visual Purposes Only__
+* __Not For Logical Reordering__
+
+___
+
+### Example:
+
+__Source Order__
+
+```html
+
+<div class="flex-container">
+    <div class="flex-item">
+        1
+    </div>
+    <div class="flex-item">
+        2
+    </div>
+    <div class="flex-item">
+        3
+    </div>
+</div>
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo1.png)
+
+___
+
+```css
+.flex-item-01 {
+    background-color: #686868;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+}
+
+.flex-item-04 {
+    background-color: #2A9FBC;
+    order: 0;
+}
+
+.flex-item-05 {
+    background-color: #F15B2A;
+}
+
+.flex-item-06 {
+    background-color: #9BC850;
+}
+
+.flex-item-07 {
+    background-color: #BC2525;
+}
+
+.flex-item-08 {
+    background-color: #dc3c3c;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo2.png)
+
+___
+
+```css
+.flex-item-01 {
+    background-color: #686868;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+}
+
+.flex-item-04 {
+    background-color: #2A9FBC;
+    order: 1;
+}
+
+.flex-item-05 {
+    background-color: #F15B2A;
+}
+
+.flex-item-06 {
+    background-color: #9BC850;
+}
+
+.flex-item-07 {
+    background-color: #BC2525;
+}
+
+.flex-item-08 {
+    background-color: #dc3c3c;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo3.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo3_2.png)
+
+___
+
+```css
+.flex-item-01 {
+    background-color: #686868;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    order: 1;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+}
+
+.flex-item-04 {
+    background-color: #2A9FBC;
+    order: 1;
+}
+
+.flex-item-05 {
+    background-color: #F15B2A;
+}
+
+.flex-item-06 {
+    background-color: #9BC850;
+}
+
+.flex-item-07 {
+    background-color: #BC2525;
+}
+
+.flex-item-08 {
+    background-color: #dc3c3c;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo4.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo4_2.png)
+
+___
+
+```css
+.flex-item-01 {
+    background-color: #686868;
+}
+
+.flex-item-02 {
+    background-color: #9BC850;
+    order: -1;
+}
+
+.flex-item-03 {
+    background-color: #675BA7;
+}
+
+.flex-item-04 {
+    background-color: #2A9FBC;
+    order: 1;
+}
+
+.flex-item-05 {
+    background-color: #F15B2A;
+}
+
+.flex-item-06 {
+    background-color: #9BC850;
+}
+
+.flex-item-07 {
+    background-color: #BC2525;
+}
+
+.flex-item-08 {
+    background-color: #dc3c3c;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/display_order_demo5.png)
+___
