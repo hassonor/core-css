@@ -44,7 +44,7 @@ ___
 }
 ```
 
-![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/master/flex_demo3.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flex_demo3.png)
 ___
 
 ```css
