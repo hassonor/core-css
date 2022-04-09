@@ -1322,5 +1322,316 @@ With `flex: 1` and `gap: 2em` Example_3:
 
 ___
 
+### Flexbox: Real World Examples
+
+___
+Instead of using `float`, `width` and `clear`, <br>
+we __only__ needs to use `flex:1`, see the example bellow:
+
+```css
+.items {
+    background-color: #A62E5C;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_1.png)
+___
+
+Instead of using `min-height` etc. <br>
+we __only__ needs to use `flex:1`, see the example bellow:
+
+```css
+.items {
+    background-color: #A62E5C;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_2.png)
+
+___
+
+We need 3 or 4 columns? we __only__ needs to use `flex:1`, see the example bellow:
+
+```css
+.items {
+    background-color: #A62E5C;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_3.png)
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_4.png)
+
+___
+
+We want one column 50% and two columns 25%? Easy! <br>
+Set `felx: 0 0 50%`. see the example bellow:
+
+```css
+.items {
+    background-color: #A62E5C;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    flex: 1;
+}
+
+.item:first-child {
+    flex: 0 0 50%;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_5.png)
+
+___
+`align-items: flex-start` example:
+
+```css
+.container {
+    border: solid 4px #000;
+    display: flex;
+    padding: 1em;
+    height: 20em;
+    align-items: flex-start;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_6.png)
+___
+
+`align-items: flex-end` example:
+
+```css
+.container {
+    border: solid 4px #000;
+    display: flex;
+    padding: 1em;
+    height: 20em;
+    align-items: flex-end;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_7.png)
+___
+
+`align-items: center` example:
+
+```css
+.container {
+    border: solid 4px #000;
+    display: flex;
+    padding: 1em;
+    height: 20em;
+    align-items: center;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_8.png)
+___
+
+#### Flexbox is GREAT for Layouts (Header, Navigation, content, sidebar, footer)
+
+Example of common Layout:
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_9.png)
+
+```html
+
+<header class="page-header">
+    <h1>Header></h1>
+</header>
+
+<main class="page-content">
+    <nav class="content-navigation">
+        <h1>Navigation</h1>
+    </nav>
+    <article class="content-article">
+        <h1>Main Content</h1>
+    </article>
+    <aside class="content-sidebar">
+        <h1>Sidebar</h1>
+    </aside>
+</main>
+
+<footer class="page-footer">
+    <h1>Footer</h1>
+</footer>
+```
+
+This `html` should look like:
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_10.png)
+
+CSS Step_1:
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+
+}
+
+article {
+
+
+}
+
+nav, aside {
+
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_11.png)
+
+CSS Step_2:
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+
+
+}
+
+nav, aside {
+
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_12.png)
+
+CSS Step_3:
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2 2 12em;
+}
+
+nav, aside {
+
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_13.png)
+
+CSS Step_4:
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2 2 12em;
+}
+
+nav, aside {
+    flex: 1;
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_14.png)
+
+CSS Step_5 (adding mobile):
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2 2 12em;
+}
+
+nav, aside {
+    flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_15.png)
+
+CSS Step_6 (changing order of Main Content and Navigation):
+
+```css
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2 2 12em;
+    order: -1;
+}
+
+nav, aside {
+    flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
+}
+```
+
+![Twitter](https://github.com/hassonor/core-css/blob/master/screenshots/flexbox_realworld_demo_16.png)
+
+
 
 
